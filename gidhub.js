@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const ar = "!"; //prefix np !help, !8ball
+const ar = "!"; //prefix e.g. !help, !8ball
 var enter="\n";
 
 //version bot 1.0.0
