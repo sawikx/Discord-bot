@@ -16,7 +16,7 @@ const command = args.shift().toLowerCase();
   
  switch (command){
   case '8ball'://8ball 
-				var los = Math.floor(Math.random() * 16) + 1;
+				var los = Math.floor(Math.random() * 19) + 1;
 					switch(los){
 						case 1:
               message.channel.send('Yes');
