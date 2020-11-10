@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const ar = "!"; //prefix e.g. !help, !8ball
 var enter="\n";
 
-//version bot 1.1.0
+//version bot 1.1.1
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   client.user.setActivity("your title")
@@ -203,7 +203,8 @@ const command = args.shift().toLowerCase();
         else if(whatitdoes == "add"){
           memberadd.addRole(rolaadd);
         }
-      break;
+      break;}
+  break
 
   case 'help'://information about commands
           var he1="```";
