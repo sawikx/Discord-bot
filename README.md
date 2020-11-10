@@ -25,3 +25,7 @@ For it to work properly, the following data should be changed in the file:
 File - RESTMethods.js
 line 560 change from 10e3 to 1000 (or less)
 line 586 change from 10e3 to 1000 (or less)
+
+Update 1.1.1
+
+fix error
