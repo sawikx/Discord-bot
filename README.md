@@ -15,3 +15,13 @@ The following commands are available:
 
 !wyb - selects one of the ten written options e.g. "!wyb cat dog hamster" and bot choose one of the animals
 
+!role - Users can add or delete himself from selected roles 
+
+Update 1.1.0
+
+Add new command !role
+
+For it to work properly, the following data should be changed in the file:
+File - RESTMethods.js
+line 560 change from 10e3 to 1000 (or less)
+line 586 change from 10e3 to 1000 (or less)
